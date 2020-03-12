@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#FFFFFF"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:background="@color/colorAccent"
+        android:contentDescription="@string/app_name"
+        android:scaleType="center"
+        android:src="@drawable/banner" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="4dp"
+        android:hint="Name of Marker"
+        android:textColor="#FF000000" />
+
+    <EditText
+        android:id="@+id/desc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="16dp"
+        android:hint="Descripcion of the Marker"
+        android:textColor="#FF000000" />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="154dp"
+            android:layout_height="35dp"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="28dp"
+            android:layout_marginEnd="5dp"
+            android:layout_toStartOf="@+id/add_marker"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="cancelar" />
+
+        <Button
+            android:id="@+id/add_marker"
+            android:layout_width="130dp"
+            android:layout_height="35dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="28dp"
+            android:layout_marginBottom="16dp"
+            android:background="@color/colorAccent"
+            android:text="@string/add" />
+
+    </RelativeLayout>
+
+</LinearLayout>
