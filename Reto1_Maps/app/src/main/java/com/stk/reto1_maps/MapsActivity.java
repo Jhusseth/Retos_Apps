@@ -15,8 +15,10 @@ import android.os.Bundle;
 import android.provider.Settings;
 import android.view.View;
 import android.view.Window;
+import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
+import android.widget.Spinner;
 import android.widget.Toast;
 
 import androidx.appcompat.app.AlertDialog;
@@ -207,7 +209,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
         String provider = manager.getBestProvider(criteria, true);
         if (provider != null) {
             manager = (LocationManager)getSystemService(Context.LOCATION_SERVICE);
-            manager.requestLocationUpdates(provider, 5000, 50, locationListenerBest);
+            manager.requestLocationUpdates(provider, 1000, 5, locationListenerBest);
            // manager.requestLocationUpdates(provider, 2 * 20 * 1000, 10, locationListenerBest);
             Toast.makeText(this, "Best Provider is " + provider, Toast.LENGTH_LONG).show();
         }
@@ -315,20 +317,21 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 float distance = calculateDistances()[0];
                 MarkerOptions m = arrayMarkers.get(i);
 
-              if(distance<5.0){
-                  btnInfo.setText("se encuentra en: " + m.getTitle().toString());
+              if(distance<3.0){
+                  btnInfo.setText("Se encuentra en: " +m.getTitle().toString());
               }
+              else {
+                  btnInfo.setText("El lugar mas cercano es: " + m.getTitle());
+                  String str = m.getTitle() + " " + m.getSnippet() + " se encuentra a " + distance + " Metros";
+                  m.visible(true);
+                  m.icon(null);
+                  MarkerOptions mark = new MarkerOptions().position(pos)
+                          .icon(BitmapDescriptorFactory.fromResource(R.drawable.near))
+                          .title(m.getTitle())
+                          .snippet(str);
 
-                btnInfo.setText("El lugar mas cercano es: " + m.getTitle());
-                String str = m.getTitle() + " " + m.getSnippet() + " se encuentra a " + distance + " Metros";
-                m.visible(true);
-                m.icon(null);
-                MarkerOptions mark = new MarkerOptions().position(pos)
-                        .icon(BitmapDescriptorFactory.fromResource(R.drawable.near))
-                        .title(m.getTitle())
-                        .snippet(str);
-
-                mMap.addMarker(mark);
+                  mMap.addMarker(mark);
+              }
 
             }catch(Exception e){
                 Toast.makeText(MapsActivity.this, "Add Marker First", Toast.LENGTH_SHORT).show();
@@ -398,5 +401,41 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
             .setIcon(BitmapDescriptorFactory.fromResource(R.drawable.near));
         }
     }
+
+    public void dialogChangeMap(View view)
+    {
+        // con este tema personalizado evitamos los bordes por defecto
+        customDialog = new Dialog(this,R.style.Theme_Dialog_Translucent);
+        //deshabilitamos el título por defecto
+        customDialog.requestWindowFeature(Window.FEATURE_NO_TITLE);
+        //obligamos al usuario a pulsar los botones para cerrarlo
+        customDialog.setCancelable(false);
+        //establecemos el contenido de nuestro dialog
+        customDialog.setContentView(R.layout.type_maps);
+
+       final Spinner sp = findViewById(R.id.spinner);
+
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
+                R.array.Google_types, android.R.layout.simple_spinner_item);
+        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        sp.setAdapter(adapter);
+
+        ((Button) customDialog.findViewById(R.id.add_marker)).setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View view)
+            {
+
+                String spt = sp.getSelectedItem().toString();
+                customDialog.dismiss();
+                Toast.makeText(MapsActivity.this, "Marker Added", Toast.LENGTH_SHORT).show();
+
+            }
+        });
+
+        customDialog.show();
+    }
+
+
 
 }

@@ -6,54 +6,54 @@
 6
 7    <uses-sdk
 8        android:minSdkVersion="21"
-8-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml
+8-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml
 9        android:targetSdkVersion="29" />
-9-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml
+9-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml
 10    <!--
 11         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
 12         Google Maps Android API v2, but you must specify either coarse or fine
 13         location permissions for the 'MyLocation' functionality.
 14    -->
 15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
-15-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:9:5-79
-15-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:9:22-76
+15-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:9:5-79
+15-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:9:22-76
 16    <uses-permission android:name="android.permission.INTERNET" />
-16-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:10:5-67
-16-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:10:22-64
+16-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:10:5-67
+16-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:10:22-64
 17    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-17-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:11:5-81
-17-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:11:22-78
+17-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:11:5-81
+17-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:11:22-78
 18
 19    <!-- Include required permissions for Google Maps API to run. -->
 20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-20-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
-20-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:22-76
+20-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:5-79
+20-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:23:22-76
 21
 22    <uses-feature
-22-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
+22-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:26:5-28:35
 23        android:glEsVersion="0x00020000"
-23-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
+23-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:27:9-41
 24        android:required="true" />
-24-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
+24-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:28:9-32
 25
 26    <application
-26-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:14:5-44:19
+26-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:14:5-44:19
 27        android:allowBackup="true"
-27-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:15:9-35
+27-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:15:9-35
 28        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-28-->[androidx.core:core:1.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/8f8ab13dc8f4e84e14a8bb3d9ac92bc4/core-1.0.1/AndroidManifest.xml:22:18-86
+28-->[androidx.core:core:1.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/51ec9767ead7a598d20dd24a7369e6f6/core-1.0.1/AndroidManifest.xml:22:18-86
 29        android:debuggable="true"
 30        android:icon="@mipmap/ic_launcher"
-30-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:16:9-43
+30-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:16:9-43
 31        android:label="@string/app_name"
-31-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:17:9-41
+31-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:17:9-41
 32        android:roundIcon="@mipmap/ic_launcher_round"
-32-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:18:9-54
+32-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:18:9-54
 33        android:supportsRtl="true"
-33-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:19:9-35
+33-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:19:9-35
 34        android:testOnly="true"
 35        android:theme="@style/AppTheme" >
-35-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:20:9-40
+35-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:20:9-40
 36
 37        <!--
 38             The API key for Google Maps-based APIs is defined as a string resource.
@@ -64,56 +64,56 @@
 43             You can define the keys for the debug and release targets in src/debug/ and src/release/.
 44        -->
 45        <uses-library android:name="com.google.android.maps" />
-45-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:29:9-63
-45-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:29:23-61
+45-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:29:9-63
+45-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:29:23-61
 46
 47        <meta-data
-47-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:30:9-32:55
+47-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:30:9-32:55
 48            android:name="com.google.android.geo.API_KEY"
-48-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:31:13-58
+48-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:31:13-58
 49            android:value="@string/google_maps_key" />
-49-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:32:13-52
+49-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:32:13-52
 50
 51        <activity
-51-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:34:9-43:20
+51-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:34:9-43:20
 52            android:name="com.stk.reto1_maps.MapsActivity"
-52-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:35:13-41
+52-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:35:13-41
 53            android:label="@string/title_activity_maps" >
-53-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:36:13-56
+53-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:36:13-56
 54            <intent-filter>
-54-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:38:13-42:29
+54-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:38:13-42:29
 55                <action android:name="android.intent.action.MAIN" />
-55-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:39:17-69
-55-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:39:25-66
+55-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:39:17-69
+55-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:39:25-66
 56
 57                <category android:name="android.intent.category.LAUNCHER" />
-57-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:41:17-77
-57-->/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/src/main/AndroidManifest.xml:41:27-74
+57-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:41:17-77
+57-->/home/fsociety/git/Retos_Apps/Reto1_Maps/app/src/main/AndroidManifest.xml:41:27-74
 58            </intent-filter>
 59        </activity>
 60        <!-- Needs to be explicitly declared on P+ -->
 61        <uses-library
-61-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
+61-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:33:9-35:40
 62            android:name="org.apache.http.legacy"
-62-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
+62-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:34:13-50
 63            android:required="false" />
-63-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f09ef82f65081211f71c2b00169b719b/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
+63-->[com.google.android.gms:play-services-maps:16.1.0] /home/fsociety/.gradle/caches/transforms-2/files-2.1/f13fabac8d112dfd2823811b48217bcb/jetified-play-services-maps-16.1.0/AndroidManifest.xml:35:13-37
 64
 65        <activity
-65-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/a08daa03817bf64b7610684515649815/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
+65-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/c71b45486316a1e95ae26053d8d71db2/jetified-play-services-base-16.0.1/AndroidManifest.xml:23:9-26:75
 66            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-66-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/a08daa03817bf64b7610684515649815/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
+66-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/c71b45486316a1e95ae26053d8d71db2/jetified-play-services-base-16.0.1/AndroidManifest.xml:24:13-79
 67            android:exported="false"
-67-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/a08daa03817bf64b7610684515649815/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
+67-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/c71b45486316a1e95ae26053d8d71db2/jetified-play-services-base-16.0.1/AndroidManifest.xml:25:13-37
 68            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-68-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/a08daa03817bf64b7610684515649815/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
+68-->[com.google.android.gms:play-services-base:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/c71b45486316a1e95ae26053d8d71db2/jetified-play-services-base-16.0.1/AndroidManifest.xml:26:13-72
 69
 70        <meta-data
-70-->[com.google.android.gms:play-services-basement:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/499517fdcee1b52b21addd046b74d5f9/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
+70-->[com.google.android.gms:play-services-basement:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/68a2526abbede54daf1fdf082122c579/jetified-play-services-basement-16.0.1/AndroidManifest.xml:23:9-25:69
 71            android:name="com.google.android.gms.version"
-71-->[com.google.android.gms:play-services-basement:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/499517fdcee1b52b21addd046b74d5f9/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
+71-->[com.google.android.gms:play-services-basement:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/68a2526abbede54daf1fdf082122c579/jetified-play-services-basement-16.0.1/AndroidManifest.xml:24:13-58
 72            android:value="@integer/google_play_services_version" />
-72-->[com.google.android.gms:play-services-basement:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/499517fdcee1b52b21addd046b74d5f9/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
+72-->[com.google.android.gms:play-services-basement:16.0.1] /home/fsociety/.gradle/caches/transforms-2/files-2.1/68a2526abbede54daf1fdf082122c579/jetified-play-services-basement-16.0.1/AndroidManifest.xml:25:13-66
 73    </application>
 74
 75</manifest>

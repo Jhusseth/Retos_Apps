@@ -1,0 +1,9 @@
+<resources>
+    <string-array
+        name="Google_types">
+        <item>GoogleMap.MAP_TYPE_NORMAL</item>
+        <item>GoogleMap.MAP_TYPE_SATELLITE</item>
+        <item>GoogleMap.MAP_TYPE_HYBRID</item>
+        <item>GoogleMap.MAP_TYPE_TERRAIN</item>
+    </string-array>
+</resources>

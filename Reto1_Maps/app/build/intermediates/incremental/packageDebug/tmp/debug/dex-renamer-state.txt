@@ -1,7 +1,7 @@
-#Thu Mar 12 17:06:50 COT 2020
-base.0=/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
+#Thu Mar 12 17:52:35 COT 2020
+base.0=/home/fsociety/git/Retos_Apps/Reto1_Maps/app/build/intermediates/dex/debug/mergeExtDexDebug/out/classes.dex
 path.1=classes.dex
 renamed.1=classes2.dex
 path.0=classes.dex
 renamed.0=classes.dex
-base.1=/home/fsociety/AndroidStudioProjects/Reto1_Maps/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
+base.1=/home/fsociety/git/Retos_Apps/Reto1_Maps/app/build/intermediates/dex/debug/mergeProjectDexDebug/out/classes.dex
